@@ -1,0 +1,14 @@
+{
+  "masters_count": 40,
+  "dims_distribution": {
+    "2880x3840": 1,
+    "3840x2160": 31,
+    "1916x2160": 8
+  },
+  "filename_dim_mismatch": [],
+  "pack_stale_vs_masters": [
+    "10_图3.7a_Scene07_私人放映室同看你的名字双色彗星_3840x2160_4K.jpg",
+    "07_图3.4_Scene04_4月1日高三同桌竖起DBX与YXP笔记本_3840x2160_4K.jpg",
+    "05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg"
+  ]
+}

@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+Thumbs.db
+desktop.ini
+
+# 本地生成/测试产物
+gen_out/
+gen_test/
+
+# 大图不入库（云端与本地保留）
+source/audit/**/*.jpg
+source/audit/**/*.jpeg
+source/audit/**/*.png
+redraw_pack/**/*.jpg
+redraw_pack/**/*.jpeg
+redraw_pack/**/*.png
+
+# 视频/音频中间件
+*.mp4
+*.wav

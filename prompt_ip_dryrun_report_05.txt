@@ -1,0 +1,109 @@
+Phase 2 提示词 IP 替换 · bookmark=05 · apply=False
+
+========================================================================================
+180 轨 · 替换统计（183 个字段被修改）
+========================================================================================
+  bookmark_en: 56 处
+  bookmark_zh: 38 处
+  cup_en: 155 处
+  cup_zh: 88 处
+  kitty_en: 11 处
+  whitecat_en: 115 处
+  whitecat_zh: 106 处
+
+  前 6 个修改字段的抽样（改前 → 改后）：
+    [Shot_010.prompt_zh] …出镜）：女主雨绪偏穿春季白衬衫配红蓝白斜条纹领结与深藏青百褶裙（JK制服，无头饰），双手（仅两只手十指健全）稳稳举起挂着白色小猫吊坠的樱花粉数码相机对准球场；辅助槽 图2.1 仅以 Weight=0.35 锁五官骨相，严禁将粉大衣白围巾带入球场！ 【本镜（Shot_010 · 0…
+      → …出镜）：女主雨绪偏穿春季白衬衫配红蓝白斜条纹领结与深藏青百褶裙（JK制服，无头饰），双手（仅两只手十指健全）稳稳举起挂着黄铜色小彗星吊坠的樱花粉数码相机对准球场；辅助槽 图2.1 仅以 Weight=0.35 锁五官骨相，严禁将粉大衣白围巾带入球场！ 【本镜（Shot_010 · 01:30–01:40 · 第0216…
+    [Shot_010.prompt_en] … (no headwear), holding her sakura-pink digital camera with white cat charm in BOTH hands; Auxiliary Slot Fig 2.1 at Weight=0.35 locks facia…
+      → … (no headwear), holding her sakura-pink digital camera with brass comet charm in BOTH hands; Auxiliary Slot Fig 2.1 at Weight=0.35 locks facial bone structure O…
+    [Shot_010.motion_zh] …第121–204帧 · Keyframes F121→F168→F204）后半程情绪递进与微表情波峰】她双手稳稳举起挂着白色小猫吊坠的樱花粉数码相机对准球场方向，白色小猫吊坠随晚风轻轻晃动。【Sub-Cut δ · 8.5–10.0秒（第205–240帧 · Keyframes …
+      → …第121–204帧 · Keyframes F121→F168→F204）后半程情绪递进与微表情波峰】她双手稳稳举起挂着黄铜色小彗星吊坠的樱花粉数码相机对准球场方向，黄铜色小彗星吊坠随晚风轻轻晃动。【Sub-Cut δ · 8.5–10.0秒（第205–240帧 · Keyframes F205→F228→F240）院…
+    [Shot_010.motion_en] …: She raises her sakura-pink digital camera with a dangling white cat charm in both hands toward the field as the charm sways gently in the …
+      → …: She raises her sakura-pink digital camera with a dangling brass comet charm in both hands toward the field as the charm sways gently in the breeze. [Sub-Cut δ…
+    [Shot_011.prompt_zh] …外侧女主单人特写（承接 Shot_010，无分屏线、无男主出镜）：女主雨绪偏穿白衬衫条纹领结JK制服（无头饰），双手举着带白色小猫吊坠的樱花粉数码相机，右手食指轻轻按下快门定格第001帧，左眼外下方唯一小美人痣清晰锁定；严禁出现第三只手或冬装串服！ 【本镜（Shot_011 · …
+      → …外侧女主单人特写（承接 Shot_010，无分屏线、无男主出镜）：女主雨绪偏穿白衬衫条纹领结JK制服（无头饰），双手举着带黄铜色小彗星吊坠的樱花粉数码相机，右手食指轻轻按下快门定格第001帧，左眼外下方唯一小美人痣清晰锁定；严禁出现第三只手或冬装串服！ 【本镜（Shot_011 · 01:40–01:50 · 第024…
+    [Shot_011.prompt_en] …ed bow tie (no headwear) holds the pink digital camera with white cat charm in both hands, her right index finger gently pressing the shutte…
+      → …ed bow tie (no headwear) holds the pink digital camera with brass comet charm in both hands, her right index finger gently pressing the shutter button to captur…
+
+  字段边界复核：仅 4 个 prompt/motion 字段可变化 ✔
+  变更字段清单（镜号.字段）：
+    Shot_010.prompt_zh  Shot_010.prompt_en  Shot_010.motion_zh  Shot_010.motion_en  Shot_011.prompt_zh  Shot_011.prompt_en  Shot_012.prompt_zh  Shot_012.prompt_en
+    Shot_013.prompt_zh  Shot_013.prompt_en  Shot_013.motion_zh  Shot_013.motion_en  Shot_014.prompt_zh  Shot_014.prompt_en  Shot_014.motion_zh  Shot_014.motion_en
+    Shot_021.prompt_zh  Shot_021.prompt_en  Shot_021.motion_zh  Shot_021.motion_en  Shot_022.prompt_zh  Shot_022.prompt_en  Shot_023.prompt_zh  Shot_023.prompt_en
+    Shot_024.prompt_zh  Shot_024.prompt_en  Shot_024.motion_zh  Shot_024.motion_en  Shot_025.prompt_zh  Shot_025.prompt_en  Shot_026.prompt_zh  Shot_026.prompt_en
+    Shot_027.prompt_zh  Shot_027.prompt_en  Shot_028.prompt_zh  Shot_028.prompt_en  Shot_028.motion_zh  Shot_028.motion_en  Shot_030.prompt_zh  Shot_030.prompt_en
+    Shot_031.prompt_zh  Shot_031.prompt_en  Shot_031.motion_zh  Shot_031.motion_en  Shot_032.prompt_zh  Shot_032.prompt_en  Shot_032.motion_zh  Shot_032.motion_en
+    Shot_033.prompt_zh  Shot_033.prompt_en  Shot_033.motion_zh  Shot_033.motion_en  Shot_034.prompt_zh  Shot_034.prompt_en  Shot_034.motion_zh  Shot_035.prompt_zh
+    Shot_035.prompt_en  Shot_035.motion_zh  Shot_036.prompt_zh  Shot_036.prompt_en  Shot_036.motion_zh  Shot_036.motion_en  Shot_037.prompt_zh  Shot_037.prompt_en
+    Shot_037.motion_zh  Shot_037.motion_en  Shot_038.prompt_zh  Shot_038.prompt_en  Shot_038.motion_zh  Shot_038.motion_en  Shot_039.prompt_zh  Shot_039.prompt_en
+    Shot_040.prompt_zh  Shot_040.prompt_en  Shot_040.motion_zh  Shot_040.motion_en  Shot_041.prompt_zh  Shot_041.prompt_en  Shot_041.motion_zh  Shot_041.motion_en
+    Shot_042.prompt_zh  Shot_042.prompt_en  Shot_043.prompt_en  Shot_044.prompt_en  Shot_045.prompt_en  Shot_046.prompt_en  Shot_058.prompt_zh  Shot_058.prompt_en
+    Shot_058.motion_zh  Shot_058.motion_en  Shot_059.prompt_zh  Shot_059.prompt_en  Shot_059.motion_zh  Shot_059.motion_en  Shot_060.prompt_zh  Shot_060.prompt_en
+    Shot_061.prompt_zh  Shot_061.prompt_en  Shot_064.prompt_zh  Shot_064.prompt_en  Shot_065.prompt_zh  Shot_065.prompt_en  Shot_066.prompt_zh  Shot_066.prompt_en
+    Shot_067.prompt_zh  Shot_067.prompt_en  Shot_067.motion_zh  Shot_067.motion_en  Shot_068.prompt_zh  Shot_068.prompt_en  Shot_068.motion_zh  Shot_068.motion_en
+    Shot_069.prompt_zh  Shot_069.prompt_en  Shot_112.prompt_zh  Shot_112.prompt_en  Shot_112.motion_zh  Shot_112.motion_en  Shot_114.prompt_zh  Shot_114.prompt_en
+    Shot_115.prompt_zh  Shot_115.prompt_en  Shot_115.motion_zh  Shot_115.motion_en  Shot_116.prompt_zh  Shot_116.prompt_en  Shot_116.motion_zh  Shot_116.motion_en
+    Shot_118.prompt_zh  Shot_118.prompt_en  Shot_119.prompt_zh  Shot_119.prompt_en  Shot_120.prompt_zh  Shot_120.prompt_en  Shot_121.prompt_zh  Shot_121.prompt_en
+    Shot_121.motion_zh  Shot_122.prompt_zh  Shot_122.motion_zh  Shot_123.prompt_zh  Shot_124.prompt_zh  Shot_127.prompt_zh  Shot_127.prompt_en  Shot_127.motion_zh
+    Shot_127.motion_en  Shot_128.prompt_zh  Shot_128.motion_zh  Shot_129.prompt_zh  Shot_130.prompt_zh  Shot_135.prompt_zh  Shot_135.prompt_en  Shot_135.motion_zh
+    Shot_135.motion_en  Shot_136.prompt_zh  Shot_136.prompt_en  Shot_136.motion_zh  Shot_136.motion_en  Shot_137.prompt_zh  Shot_137.prompt_en  Shot_137.motion_zh
+    Shot_137.motion_en  Shot_138.prompt_zh  Shot_138.prompt_en  Shot_138.motion_zh  Shot_138.motion_en  Shot_150.prompt_zh  Shot_150.prompt_en  Shot_153.prompt_zh
+    Shot_153.prompt_en  Shot_153.motion_zh  Shot_153.motion_en  Shot_155.prompt_zh  Shot_155.prompt_en  Shot_156.prompt_zh  Shot_156.prompt_en  Shot_157.prompt_zh
+    Shot_157.prompt_en  Shot_158.prompt_zh  Shot_158.prompt_en  Shot_158.motion_zh  Shot_158.motion_en  Shot_159.prompt_zh  Shot_159.prompt_en
+
+  180 轨残留检查（文件名与「台词」已排除）：
+    ✔ 无残留
+
+  （dry-run，未写文件；确认无误后加 --apply）
+
+========================================================================================
+120 轨 · 替换统计（149 个字段被修改）
+========================================================================================
+  bookmark_en: 29 处
+  bookmark_zh: 29 处
+  cup_en: 67 处
+  cup_zh: 66 处
+  kitty_en: 6 处
+  whitecat_en: 64 处
+  whitecat_zh: 86 处
+
+  前 6 个修改字段的抽样（改前 → 改后）：
+    [Manus15s_007.prompt_zh] …外侧女主单人特写（承接 Shot_010，无分屏线、无男主出镜）：女主雨绪偏穿白衬衫条纹领结JK制服（无头饰），双手举着带白色小猫吊坠的樱花粉数码相机，右手食指轻轻按下快门定格第001帧，左眼外下方唯一小美人痣清晰锁定；严禁出现第三只手或冬装串服！ 【本镜（Manus15s_00…
+      → …外侧女主单人特写（承接 Shot_010，无分屏线、无男主出镜）：女主雨绪偏穿白衬衫条纹领结JK制服（无头饰），双手举着带黄铜色小彗星吊坠的樱花粉数码相机，右手食指轻轻按下快门定格第001帧，左眼外下方唯一小美人痣清晰锁定；严禁出现第三只手或冬装串服！ 【本镜（Manus15s_007 · 01:30–01:45 · …
+    [Manus15s_007.prompt_en] … (no headwear), holding her sakura-pink digital camera with white cat charm in BOTH hands; Auxiliary Slot Fig 2.1 at Weight=0.35 locks facia…
+      → … (no headwear), holding her sakura-pink digital camera with brass comet charm in BOTH hands; Auxiliary Slot Fig 2.1 at Weight=0.35 locks facial bone structure O…
+    [Manus15s_007.motion_zh] …240帧 · Keyframes F145→F192→F240 · 源自 Shot_010 递进段）】她双手稳稳举起挂着白色小猫吊坠的樱花粉数码相机对准球场方向，白色小猫吊坠随晚风轻轻晃动。【Sub-Cut δ · 10.0–13.0秒（第241–312帧 · Keyframes…
+      → …240帧 · Keyframes F145→F192→F240 · 源自 Shot_010 递进段）】她双手稳稳举起挂着黄铜色小彗星吊坠的樱花粉数码相机对准球场方向，黄铜色小彗星吊坠随晚风轻轻晃动。【Sub-Cut δ · 10.0–13.0秒（第241–312帧 · Keyframes F241→F276→F312 …
+    [Manus15s_007.motion_en] …: She raises her sakura-pink digital camera with a dangling white cat charm in both hands toward the field as the charm sways gently in the …
+      → …: She raises her sakura-pink digital camera with a dangling brass comet charm in both hands toward the field as the charm sways gently in the breeze. [Sub-Cut δ…
+    [Manus15s_008.prompt_zh] …外侧女主单人特写（承接 Shot_010，无分屏线、无男主出镜）：女主雨绪偏穿白衬衫条纹领结JK制服（无头饰），双手举着带白色小猫吊坠的樱花粉数码相机，右手食指轻轻按下快门定格第001帧，左眼外下方唯一小美人痣清晰锁定；严禁出现第三只手或冬装串服！ ＋ 跨镜衔接：【服化道与左右手…
+      → …外侧女主单人特写（承接 Shot_010，无分屏线、无男主出镜）：女主雨绪偏穿白衬衫条纹领结JK制服（无头饰），双手举着带黄铜色小彗星吊坠的樱花粉数码相机，右手食指轻轻按下快门定格第001帧，左眼外下方唯一小美人痣清晰锁定；严禁出现第三只手或冬装串服！ ＋ 跨镜衔接：【服化道与左右手死锁】男主冬冰絮身穿蓝白拼色『040…
+    [Manus15s_008.prompt_en] …ed bow tie (no headwear) holds the pink digital camera with white cat charm in both hands, her right index finger gently pressing the shutte…
+      → …ed bow tie (no headwear) holds the pink digital camera with brass comet charm in both hands, her right index finger gently pressing the shutter button to captur…
+
+  字段边界复核：仅 4 个 prompt/motion 字段可变化 ✔
+  变更字段清单（镜号.字段）：
+    Manus15s_007.prompt_zh  Manus15s_007.prompt_en  Manus15s_007.motion_zh  Manus15s_007.motion_en  Manus15s_008.prompt_zh  Manus15s_008.prompt_en  Manus15s_009.prompt_zh  Manus15s_009.prompt_en
+    Manus15s_009.motion_zh  Manus15s_009.motion_en  Manus15s_010.prompt_zh  Manus15s_010.prompt_en  Manus15s_010.motion_zh  Manus15s_010.motion_en  Manus15s_014.prompt_zh  Manus15s_014.prompt_en
+    Manus15s_014.motion_zh  Manus15s_014.motion_en  Manus15s_015.prompt_zh  Manus15s_015.prompt_en  Manus15s_016.prompt_zh  Manus15s_016.prompt_en  Manus15s_016.motion_zh  Manus15s_016.motion_en
+    Manus15s_017.prompt_zh  Manus15s_017.prompt_en  Manus15s_018.prompt_zh  Manus15s_018.prompt_en  Manus15s_019.prompt_zh  Manus15s_019.prompt_en  Manus15s_019.motion_zh  Manus15s_019.motion_en
+    Manus15s_020.prompt_zh  Manus15s_020.prompt_en  Manus15s_021.prompt_zh  Manus15s_021.prompt_en  Manus15s_021.motion_zh  Manus15s_021.motion_en  Manus15s_022.prompt_zh  Manus15s_022.prompt_en
+    Manus15s_022.motion_zh  Manus15s_022.motion_en  Manus15s_023.prompt_zh  Manus15s_023.prompt_en  Manus15s_023.motion_zh  Manus15s_024.prompt_zh  Manus15s_024.prompt_en  Manus15s_024.motion_zh
+    Manus15s_024.motion_en  Manus15s_025.prompt_zh  Manus15s_025.prompt_en  Manus15s_025.motion_zh  Manus15s_025.motion_en  Manus15s_026.prompt_zh  Manus15s_026.prompt_en  Manus15s_026.motion_zh
+    Manus15s_026.motion_en  Manus15s_027.prompt_zh  Manus15s_027.prompt_en  Manus15s_027.motion_zh  Manus15s_027.motion_en  Manus15s_028.prompt_zh  Manus15s_028.prompt_en  Manus15s_028.motion_zh
+    Manus15s_028.motion_en  Manus15s_029.prompt_en  Manus15s_030.prompt_en  Manus15s_031.prompt_en  Manus15s_039.prompt_zh  Manus15s_039.prompt_en  Manus15s_039.motion_zh  Manus15s_039.motion_en
+    Manus15s_040.prompt_zh  Manus15s_040.prompt_en  Manus15s_040.motion_zh  Manus15s_040.motion_en  Manus15s_041.prompt_zh  Manus15s_041.prompt_en  Manus15s_043.prompt_zh  Manus15s_043.prompt_en
+    Manus15s_044.prompt_zh  Manus15s_044.prompt_en  Manus15s_045.prompt_zh  Manus15s_045.prompt_en  Manus15s_045.motion_zh  Manus15s_045.motion_en  Manus15s_046.prompt_zh  Manus15s_046.prompt_en
+    Manus15s_046.motion_zh  Manus15s_046.motion_en  Manus15s_075.prompt_zh  Manus15s_075.prompt_en  Manus15s_075.motion_zh  Manus15s_075.motion_en  Manus15s_076.prompt_zh  Manus15s_076.prompt_en
+    Manus15s_077.prompt_zh  Manus15s_077.prompt_en  Manus15s_077.motion_zh  Manus15s_077.motion_en  Manus15s_078.prompt_zh  Manus15s_078.prompt_en  Manus15s_078.motion_zh  Manus15s_078.motion_en
+    Manus15s_079.prompt_zh  Manus15s_079.prompt_en  Manus15s_080.prompt_zh  Manus15s_080.prompt_en  Manus15s_081.prompt_zh  Manus15s_081.prompt_en  Manus15s_081.motion_zh  Manus15s_082.prompt_zh
+    Manus15s_082.motion_zh  Manus15s_083.prompt_zh  Manus15s_085.prompt_zh  Manus15s_085.prompt_en  Manus15s_085.motion_zh  Manus15s_085.motion_en  Manus15s_086.prompt_zh  Manus15s_086.motion_zh
+    Manus15s_087.prompt_zh  Manus15s_090.prompt_zh  Manus15s_090.prompt_en  Manus15s_090.motion_zh  Manus15s_090.motion_en  Manus15s_091.prompt_zh  Manus15s_091.prompt_en  Manus15s_091.motion_zh
+    Manus15s_091.motion_en  Manus15s_092.prompt_zh  Manus15s_092.prompt_en  Manus15s_092.motion_zh  Manus15s_092.motion_en  Manus15s_100.prompt_zh  Manus15s_100.prompt_en  Manus15s_102.prompt_zh
+    Manus15s_102.prompt_en  Manus15s_102.motion_zh  Manus15s_102.motion_en  Manus15s_103.prompt_zh  Manus15s_103.prompt_en  Manus15s_104.prompt_zh  Manus15s_104.prompt_en  Manus15s_105.prompt_zh
+    Manus15s_105.prompt_en  Manus15s_106.prompt_zh  Manus15s_106.prompt_en  Manus15s_106.motion_zh  Manus15s_106.motion_en
+
+  120 轨残留检查（文件名与「台词」已排除）：
+    ✔ 无残留
+
+  （dry-run，未写文件；确认无误后加 --apply）

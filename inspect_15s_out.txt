@@ -1,0 +1,402 @@
+========================================================================================
+A. 120 轨 Manus15s_005（原始 JSON 字段）
+========================================================================================
+命中条数：1
+
+--- 第 1 条 ---
+  duration_sec (int): 15
+  end_frame_cloud_filename (str): 'Manus15s_005_LastFrame_360.png'
+  end_frame_drive_file_id (str): 'EXPORT_MANUS15S_005_FRAME_360'
+  first_frame_cloud_filename (str): 'Shot_006_LastFrame.png'
+  first_frame_drive_file_id (str): 'USE_SHOT_006_FRAME_240'
+  first_frame_drive_url (str): 'https://drive.google.com/file/d/USE_SHOT_006_FRAME_240/view'
+  frame_range (str): '01441–01800'
+  manus_15s_id (str): 'Manus15s_005'
+  primary_cloud_filename (str): '04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg'
+  primary_drive_file_id (str): '1pkU017WSHLc7v3EAFPCO7y1gqmSWoVNv'
+  source_10s_shots (str): 'Shot_007 (0–10s) + Shot_008 (10–15s)'
+  timecode (str): '01:00–01:15'
+
+========================================================================================
+B. 180 轨 Shot_007 manus_15s_mapping（原始类型）
+========================================================================================
+type=str
+'Manus15s_005'
+
+========================================================================================
+C. Act1 15s 段（含 Manus15s_005 的块）
+========================================================================================
+Manus15s_005 出现位置：[76872, 78489, 80687, 81020, 82157, 88005, 89441, 91281, 93677, 93962, 95455, 101686, 102314, 409851, 410314, 410713, 411498, 413151, 413435, 414387, 416133, 418788, 419138, 420299, 422648, 423553, 428013, 429666]
+
+--- 位置 76872 前后关键行 ---
+  [Rule 6 · Manus Cloud First/End Frame Slot & Multi-Image Weight Lock]: [Manus Continuity Mode] 模式C：首尾帧双锁桥接 (First-to-Last Frame Bridge · 破窗冲入云海星穹片名卡); [0.0s First-Frame Slot] '04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg' (Drive File ID: 1pkU017WSHLc7v3EAFPCO7y1
+  Shot_007 | 时间码 01:00–01:10 | 帧区间 01441–01680 | Cut 01C (2/2) | 映射 Manus15s_005
+  Manus 衔接模式：模式A：4K原画子母带首帧直出 (Sub-Master First-Frame Start · 高空云海摇降转场)
+  云端主母带：01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg (File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT)
+  0.0s 首帧 / 参考槽：【云端4K子母带0.0s首帧直调】无缝承接 Shot_006 第240帧定格的高空苍穹子母带 01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg (File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT)
+  尾帧槽死锁（第240帧 / 第360帧）：【10.0s分切落幅稳像】8.5s–10.0s微幅减速稳像定格（第 240 帧导出 Shot_007_EndHold_Frame240.png 归档留存；下一镜 Shot_008 切换机位/场次并直调云端 4K 母带起幅，无需跨切末帧接力） (Shot_007_EndHold_Frame240.png | HOLD_SHOT_007_FRAME_240)
+  @Google Drive 【Manus 单镜七维死锁执行令 · Shot_007 (01:00–01:10 · 单次生成上限≤15.0s [标准10s/240帧 · 满格15s/360帧])】请连接云端4K母带库（Folder ID: `1aRc6-MNuk7wsd1OFhjZPMQGXck-OIpxG`），严格按【模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)】执行：
+  ①【0.0s首帧/参考槽死锁】：截取前镜第240帧末帧 `Shot_006_LastFrame.png` 作为 0.0s 首帧（100%像素锚定），同时挂载云端母带 `01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg` (`File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT`，Weight=0.55) 防长链画质漂移；
+  ②【尾帧槽死锁（10s第240帧 / 15s第360帧）】：【10.0s分切落幅稳像】8.5s–10.0s微幅减速稳像定
+
+--- 位置 78489 前后关键行 ---
+  40帧 / 第360帧）：【10.0s分切落幅稳像】8.5s–10.0s微幅减速稳像定格（第 240 帧导出 Shot_007_EndHold_Frame240.png 归档留存；下一镜 Shot_008 切换机位/场次并直调云端 4K 母带起幅，无需跨切末帧接力） (Shot_007_EndHold_Frame240.png | HOLD_SHOT_007_FRAME_240)
+  @Google Drive 【Manus 单镜七维死锁执行令 · Shot_007 (01:00–01:10 · 单次生成上限≤15.0s [标准10s/240帧 · 满格15s/360帧])】请连接云端4K母带库（Folder ID: `1aRc6-MNuk7wsd1OFhjZPMQGXck-OIpxG`），严格按【模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)】执行：
+  ①【0.0s首帧/参考槽死锁】：截取前镜第240帧末帧 `Shot_006_LastFrame.png` 作为 0.0s 首帧（100%像素锚定），同时挂载云端母带 `01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg` (`File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT`，Weight=0.55) 防长链画质漂移；
+  ②【尾帧槽死锁（10s第240帧 / 15s第360帧）】：【10.0s分切落幅稳像】8.5s–10.0s微幅减速稳像定格（第 240 帧导出 `Shot_007_EndHold_Frame240.png` 归档留存；下一镜 `Shot_008` 切换机位/场次并直调云端 4K 母带起幅，无需跨切末帧接力）（输出 `Shot_007_EndHold_Frame240.png`，标识 `HOLD_SHOT_007_FRAME_240`）；
+  ④【七维正/负向提示词与声轨口型死锁】：完整注入下方 `Shot_007` 的【铁律1–铁律7】中英双语提示词。
+  【Manus AI视频生成指令（单次镜头上限≤15秒 · 七维铁律死锁终极版） | Shot_007 (01:00–01:10 · 标准10.0s/240帧 · Manus满格15.0s/360帧 · 映射 Manus15s_005) | Cut 01C (2/2) | 4K 24.000fps 新海诚×京阿尼电影集级画风】
+  · 【铁律3 · 本镜专属机位景别·服化道·解剖学左右手与防串服死锁】：【纯实景空镜死锁】本场为序幕跨时空双扇木窗实景空镜（图3.1），严禁出现任何人物面部、头部或身体轮廓；居中木窗框严格固定于 x=1920（50:50对称），左扇窗外锁定11月19日暮冬暴风雪与冰霜结晶，右扇窗外锁定4月1日春雨淅沥与滑落水珠。 【本镜（Shot_007 · 01:00–01:10 · 第01441–01680帧 · Cut 01C (2/2) · 35mm f/2.0）三子镜动作与画面边界锁】：① 0.0–2.0s [F001–
+
+--- 位置 80687 前后关键行 ---
+  · 【铁律5 · Manus ≤15秒五子镜24fps关键帧运镜与动态轨迹（240帧标准 + 360帧满格双轨精控）】：【Sub-Cut α · 0.0–2.0秒（第001–048帧 · Keyframes F001→F024→F048）起幅定锚与机位切入】0.0s（第001帧）100%像素级锚定云端4K母带（01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg，`File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT`），在 35mm f/2.
+  · 【铁律6 · Manus云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式A：4K原画子母带首帧直出 (Sub-Master First-Frame Start · 高空云海摇降转场)（对应15s满格版 `Manus15s_005`）；【0.0s首帧槽位】01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg (`File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT`)；【10.0s(第240帧)尾帧槽位】【10.0s分切落幅稳像】8
+
+--- 位置 81020 前后关键行 ---
+  起幅定锚与机位切入】0.0s（第001帧）100%像素级锚定云端4K母带（01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg，`File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT`），在 35mm f/2.0 光学景深与 5200K 色温下定锚起幅（Keyframes F001→F024→F048）：承接 `01c_图0.1_上幅16x9` 高空苍穹与双色彗星云海画面，摄影机在流光溢彩的云海上空做大摇臂舒展滑行（Aerial Crane G
+  · 【铁律6 · Manus云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式A：4K原画子母带首帧直出 (Sub-Master First-Frame Start · 高空云海摇降转场)（对应15s满格版 `Manus15s_005`）；【0.0s首帧槽位】01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg (`File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT`)；【10.0s(第240帧)尾帧槽位】【10.0s分切落幅稳像】8
+  [Manus I2V Video Prompt (Max 15s Single-Shot Limit · 7-Rule Ironclad Lock Edition) | Shot_007 (01:00–01:10 · 10.0s/240f Standard · 15.0s/360f Manus Full-Capacity · Maps to Manus15s_005) | Cut 01C (2/2) | 4K UHD 24.000fps Makoto Shinkai
+
+--- 位置 82157 前后关键行 ---
+  K原画子母带首帧直出 (Sub-Master First-Frame Start · 高空云海摇降转场)（对应15s满格版 `Manus15s_005`）；【0.0s首帧槽位】01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg (`File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT`)；【10.0s(第240帧)尾帧槽位】【10.0s分切落幅稳像】8.5s–10.0s微幅减速稳像定格（第 240 帧导出 `Shot_007_EndHold_
+  [Manus I2V Video Prompt (Max 15s Single-Shot Limit · 7-Rule Ironclad Lock Edition) | Shot_007 (01:00–01:10 · 10.0s/240f Standard · 15.0s/360f Manus Full-Capacity · Maps to Manus15s_005) | Cut 01C (2/2) | 4K UHD 24.000fps Makoto Shinkai x Kyoto Animation Featur
+  [Rule 3 · Shot-Specific Framing, Wardrobe, Anatomical Hand Registry & Anti-Cross-Outfit Lock]: [Pure Environmental Lock] Opening cross-time double-pane wooden window environment (Fig 3.1) with ZERO human faces or bodies in frame; center wooden mullion locked a
+
+--- 位置 88005 前后关键行 ---
+  1 to 4K master '01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg' (File ID: 16S3Lyt2Lbf8uyU8JMy6zUayKY87aSQHT) under 35mm f/2.0 (5200K): Anchored 100% to the high-altitude sky sub-master 01c_Fig0.1_Upper16x9 at Frame 001 (01:00.00), the camera glides gracefully 
+  [Rule 6 · Manus Cloud First/End Frame Slot & Multi-Image Weight Lock]: [Manus Continuity Mode] 模式A：4K原画子母带首帧直出 (Sub-Master First-Frame Start · 高空云海摇降转场); [0.0s First-Frame Slot] '01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg' (Drive File ID: 16S3Lyt2Lbf8uyU8J
+
+--- 位置 89441 前后关键行 ---
+  [Rule 6 · Manus Cloud First/End Frame Slot & Multi-Image Weight Lock]: [Manus Continuity Mode] 模式A：4K原画子母带首帧直出 (Sub-Master First-Frame Start · 高空云海摇降转场); [0.0s First-Frame Slot] '01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg' (Drive File ID: 16S3Lyt2Lbf8uyU8J
+  Shot_008 | 时间码 01:10–01:20 | 帧区间 01681–01920 | Cut 02A (1/2) | 映射 Manus15s_005 + Manus15s_006
+  Manus 衔接模式：模式C-前导：场景/角色参考起幅 (0.0s首帧槽留空，防提前锁死高潮定格 / Manus Reference Lead-In)
+  云端主母带：05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg (File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV)
+  0.0s 首帧 / 参考槽：【0.0s首帧槽留空 · 场景参考起幅】将 05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg (File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV) 挂载于 Manus 场景/主体参考槽（Weight=0.65，严禁放入0.0s首帧硬锁槽，防0.0s提前剧透高潮定格）
+  尾帧槽死锁（第240帧 / 第360帧）：【10.0s自然落幅稳像】8.5s–10.0s微幅减速稳像，导出第 240 帧（Shot_008_LastFrame.png）供 Shot_009 无缝接力 (Shot_008_LastFrame.png | EXPORT_SHOT_008_FRAME_240)
+  @Google Drive 【Manus 单镜七维死锁执行令 · Shot_008 (01:10–01:20 · 单次生成上限≤15.0s [标准10s/240帧 · 满格15s/360帧])】请连接云端4K母带库（Folder ID: `1aRc6-MNuk7wsd1OFhjZPMQGXck-OIpxG`），严格按【模式C-前导：场景/角色参考起幅 (0.0s首帧槽留空，防提前锁死高潮定格 / Manus Reference Lead-In)】执行：
+  ①【0.0s首帧/参考槽死锁】：【0.0s首帧槽留空（严禁提前锁死高潮帧）】将 `05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg` (`Fil
+
+--- 位置 91281 前后关键行 ---
+  @Google Drive 【Manus 单镜七维死锁执行令 · Shot_008 (01:10–01:20 · 单次生成上限≤15.0s [标准10s/240帧 · 满格15s/360帧])】请连接云端4K母带库（Folder ID: `1aRc6-MNuk7wsd1OFhjZPMQGXck-OIpxG`），严格按【模式C-前导：场景/角色参考起幅 (0.0s首帧槽留空，防提前锁死高潮定格 / Manus Reference Lead-In)】执行：
+  ①【0.0s首帧/参考槽死锁】：【0.0s首帧槽留空（严禁提前锁死高潮帧）】将 `05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg` (`File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV`) 挂载于 Manus 场景/主体参考槽（Weight=0.65）；
+  ②【尾帧槽死锁（10s第240帧 / 15s第360帧）】：【10.0s自然落幅稳像】8.5s–10.0s微幅减速稳像，导出第 240 帧（`Shot_008_LastFrame.png`）供 `Shot_009` 无缝接力（输出 `Shot_008_LastFrame.png`，标识 `EXPORT_SHOT_008_FRAME_240`）；
+  ④【七维正/负向提示词与声轨口型死锁】：完整注入下方 `Shot_008` 的【铁律1–铁律7】中英双语提示词。
+  【Manus AI视频生成指令（单次镜头上限≤15秒 · 七维铁律死锁终极版） | Shot_008 (01:10–01:20 · 标准10.0s/240帧 · Manus满格15.0s/360帧 · 映射 Manus15s_005 + Manus15s_006) | Cut 02A (1/2) | 4K 24.000fps 新海诚×京阿尼电影集级画风】
+  · 【铁律3 · 本镜专属机位景别·服化道·解剖学左右手与防串服死锁】：【男主单人球场锁（无分屏线）】4200K夕阳球场单人全幅画面（基于左半单屏子母带 05a_图3.2L 智能延展为 16:9，无分屏线、无女主出镜）：男主冬冰絮穿印有深蓝『0401』字样的蓝白拼色短袖足球训练服，脚下带黑白足球敏捷突破，左耳外侧银色双环耳骨夹+小耳圈与细黑框眼镜清晰锁定；辅助槽 03a 仅以 Weight=0.35 锁五官骨相，严禁将浅灰开衫带入球场！ 【本镜（Shot_008 · 01:10–01:20 · 第01681–019
+
+--- 位置 93677 前后关键行 ---
+  · 【铁律5 · Manus ≤15秒五子镜24fps关键帧运镜与动态轨迹（240帧标准 + 360帧满格双轨精控）】：【Sub-Cut α · 0.0–2.0秒（第001–048帧 · Keyframes F001→F024→F048）起幅定锚与机位切入】0.0s（第001帧）首帧槽留空，挂载云端4K母带（05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg，`File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV`，Weight
+  · 【铁律6 · Manus云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式C-前导：场景/角色参考起幅 (0.0s首帧槽留空，防提前锁死高潮定格 / Manus Reference Lead-In)（对应15s满格版 `Manus15s_005 + Manus15s_006`）；【0.0s首帧/参考槽位】【0.0s首帧槽留空（严禁提前锁死高潮帧）】将 `05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg` (`File ID: 1aMY0oq-9u
+
+--- 位置 93962 前后关键行 ---
+  律5 · Manus ≤15秒五子镜24fps关键帧运镜与动态轨迹（240帧标准 + 360帧满格双轨精控）】：【Sub-Cut α · 0.0–2.0秒（第001–048帧 · Keyframes F001→F024→F048）起幅定锚与机位切入】0.0s（第001帧）首帧槽留空，挂载云端4K母带（05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg，`File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV`，Weight=0.6
+  · 【铁律6 · Manus云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式C-前导：场景/角色参考起幅 (0.0s首帧槽留空，防提前锁死高潮定格 / Manus Reference Lead-In)（对应15s满格版 `Manus15s_005 + Manus15s_006`）；【0.0s首帧/参考槽位】【0.0s首帧槽留空（严禁提前锁死高潮帧）】将 `05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg` (`File ID: 1aMY0oq-9u
+
+--- 位置 95455 前后关键行 ---
+  g`）供 `Shot_009` 无缝接力（输出 `Shot_008_LastFrame.png`，标识 `EXPORT_SHOT_008_FRAME_240`）；【辅助锁脸槽位】`03a_图2.2L_男主冬冰絮_春秋季浅灰开衫单人锁脸基准_1916x2160_4K.jpg` (`File ID: 1rw2CxZ5n1dtQJzUY1eQ-aRRa6BvbUJ35`)（Weight=0.35 仅锁男主五官骨相/冷白皮/细黑框眼镜/双耳对称银色双环耳骨夹ID，严禁跨场串服，本镜/辅助槽无需重复挂载女主图）。
+  [Manus I2V Video Prompt (Max 15s Single-Shot Limit · 7-Rule Ironclad Lock Edition) | Shot_008 (01:10–01:20 · 10.0s/240f Standard · 15.0s/360f Manus Full-Capacity · Maps to Manus15s_005 + Manus15s_006) | Cut 02A (1/2) | 4K UHD 24.000fps Makoto Shinkai x Kyoto A
+
+--- 位置 101686 前后关键行 ---
+  rst-Frame Slot EMPTY and mount '05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg' (File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV, Weight=0.65) in Scene Reference Slot under 85mm f/1.4 单人追焦 (4200K): Full-frame single-subject view on the 4200K golden sunset so
+  [Rule 6 · Manus Cloud First/End Frame Slot & Multi-Image Weight Lock]: [Manus Continuity Mode] 模式C-前导：场景/角色参考起幅 (0.0s首帧槽留空，防提前锁死高潮定格 / Manus Reference Lead-In) (Maps to 15s Full-Capacity 'Manus15s_005 + Manus15s_006'); [0.0s First-Frame / Scene-Ref Slot] [0.0s
+
+--- 位置 102314 前后关键行 ---
+  >F168->F204) Emotional & Physics Peak]: He pauses with a gentle breath as sweat glistens on his hair tips, his thin black glasses and left-ear silver double-ring ear cuff gleaming clearly. [Sub-Cut δ · 8.5-10.0s (Frames 205-240 · Keyframes F205->F228->F240) Fr
+  [Rule 6 · Manus Cloud First/End Frame Slot & Multi-Image Weight Lock]: [Manus Continuity Mode] 模式C-前导：场景/角色参考起幅 (0.0s首帧槽留空，防提前锁死高潮定格 / Manus Reference Lead-In) (Maps to 15s Full-Capacity 'Manus15s_005 + Manus15s_006'); [0.0s First-Frame / Scene-Ref Slot] [0.0s
+
+--- 位置 409851 前后关键行 ---
+  [Rule 6 · Manus 15s Full-Capacity Cloud First/End Frame Slot & Weight Lock]: [Mode] 模式A：4K原画母带首帧直出 (Master First-Frame Start); [0.0s (Frame 001) First-Frame / Ref Slot] 'Manus15s_003_LastFrame_360.png' (FROM_MANUS15S_003_FRAME_360); [15.0s (Frame 360) End-Fram
+  Manus15s_005 | 时间码 01:00–01:15 (15.0s) | 帧区间 01441–01800 | 涵盖 Shot_007 (0–10s) + Shot_008 (10–15s)
+  Manus 衔接模式：模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)
+  云端主母带：04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg (File ID: 1pkU017WSHLc7v3EAFPCO7y1gqmSWoVNv)
+  0.0s 首帧 / 参考槽：Shot_006_LastFrame.png (USE_SHOT_006_FRAME_240)
+  15.0s（第360帧）尾帧槽：Manus15s_005_LastFrame_360.png (EXPORT_MANUS15S_005_FRAME_360)
+  同步声轨与口型卡点：【0.0–10.0s (Shot_007)】【BGM】《夢灯籠》高速电吉他与鼓点衔接转场。 ＋ 【10.0–15.0s (Shot_008前半)】【SFX】足球抽射破风声 + 少年们远处的呼喊声；【VO·女主雨绪偏】「高一から高二にかけての放課後、私のピンク色のカメラには、いつも同じ背番号が写っていた。」（从高一到高二的无数个放学后，我的粉色相机里总是拍下同一个号码。）
+  【Manus AI视频生成指令（单次镜头15.0秒满格模式 · 七维铁律死锁V19电影级全帧版） | Manus15s_005 [涵盖 Shot_007 (0–10s) + Shot_008 (10–15s)] (01:00–01:15 · 15.0s/360帧 @24.000fps · 第01441–01800帧) | Cut 01C (2/2) -> Cut 02A (1/2) | 4K 新海诚×京阿尼电影集级画风】
+
+--- 位置 410314 前后关键行 ---
+  Manus15s_005 | 时间码 01:00–01:15 (15.0s) | 帧区间 01441–01800 | 涵盖 Shot_007 (0–10s) + Shot_008 (10–15s)
+  Manus 衔接模式：模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)
+  云端主母带：04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg (File ID: 1pkU017WSHLc7v3EAFPCO7y1gqmSWoVNv)
+  0.0s 首帧 / 参考槽：Shot_006_LastFrame.png (USE_SHOT_006_FRAME_240)
+  15.0s（第360帧）尾帧槽：Manus15s_005_LastFrame_360.png (EXPORT_MANUS15S_005_FRAME_360)
+  同步声轨与口型卡点：【0.0–10.0s (Shot_007)】【BGM】《夢灯籠》高速电吉他与鼓点衔接转场。 ＋ 【10.0–15.0s (Shot_008前半)】【SFX】足球抽射破风声 + 少年们远处的呼喊声；【VO·女主雨绪偏】「高一から高二にかけての放課後、私のピンク色のカメラには、いつも同じ背番号が写っていた。」（从高一到高二的无数个放学后，我的粉色相机里总是拍下同一个号码。）
+  【Manus AI视频生成指令（单次镜头15.0秒满格模式 · 七维铁律死锁V19电影级全帧版） | Manus15s_005 [涵盖 Shot_007 (0–10s) + Shot_008 (10–15s)] (01:00–01:15 · 15.0s/360帧 @24.000fps · 第01441–01800帧) | Cut 01C (2/2) -> Cut 02A (1/2) | 4K 新海诚×京阿尼电影集级画风】
+  · 【铁律3 · 本镜专属机位景别·服化道·解剖学左右手与防串服死锁】：【纯实景空镜死锁】本场为序幕跨时空双扇木窗实景空镜（图3.1），严禁出现任何人物面部、头部或身体轮廓；居中木窗框严格固定于 x=1920（50:50对称），左扇窗外锁定11月19日暮冬暴风雪与冰霜结晶，右扇窗外锁定4月1日春雨淅沥与滑落水珠。 ＋ 跨镜衔接：【男主单人球场锁（无分屏线）】4200K夕阳球场单人全幅画面（基于左半单屏子母带 05a_图3.2L 智能延展为 16:9，无分屏线、无女主出镜）：男主冬冰絮穿印有深蓝『0401』字样的蓝白
+
+--- 位置 410713 前后关键行 ---
+  Manus15s_005 | 时间码 01:00–01:15 (15.0s) | 帧区间 01441–01800 | 涵盖 Shot_007 (0–10s) + Shot_008 (10–15s)
+  Manus 衔接模式：模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)
+  云端主母带：04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg (File ID: 1pkU017WSHLc7v3EAFPCO7y1gqmSWoVNv)
+  0.0s 首帧 / 参考槽：Shot_006_LastFrame.png (USE_SHOT_006_FRAME_240)
+  15.0s（第360帧）尾帧槽：Manus15s_005_LastFrame_360.png (EXPORT_MANUS15S_005_FRAME_360)
+  同步声轨与口型卡点：【0.0–10.0s (Shot_007)】【BGM】《夢灯籠》高速电吉他与鼓点衔接转场。 ＋ 【10.0–15.0s (Shot_008前半)】【SFX】足球抽射破风声 + 少年们远处的呼喊声；【VO·女主雨绪偏】「高一から高二にかけての放課後、私のピンク色のカメラには、いつも同じ背番号が写っていた。」（从高一到高二的无数个放学后，我的粉色相机里总是拍下同一个号码。）
+  【Manus AI视频生成指令（单次镜头15.0秒满格模式 · 七维铁律死锁V19电影级全帧版） | Manus15s_005 [涵盖 Shot_007 (0–10s) + Shot_008 (10–15s)] (01:00–01:15 · 15.0s/360帧 @24.000fps · 第01441–01800帧) | Cut 01C (2/2) -> Cut 02A (1/2) | 4K 新海诚×京阿尼电影集级画风】
+  · 【铁律3 · 本镜专属机位景别·服化道·解剖学左右手与防串服死锁】：【纯实景空镜死锁】本场为序幕跨时空双扇木窗实景空镜（图3.1），严禁出现任何人物面部、头部或身体轮廓；居中木窗框严格固定于 x=1920（50:50对称），左扇窗外锁定11月19日暮冬暴风雪与冰霜结晶，右扇窗外锁定4月1日春雨淅沥与滑落水珠。 ＋ 跨镜衔接：【男主单人球场锁（无分屏线）】4200K夕阳球场单人全幅画面（基于左半单屏子母带 05a_图3.2L 智能延展为 16:9，无分屏线、无女主出镜）：男主冬冰絮穿印有深蓝『0401』字样的蓝白
+  · 【铁律4 · 声画同步·配乐SFX·台词口型与声优基频死锁】：【无面部出镜·画外声轨死锁】本镜为纯环境光影/静物/手部或美食微距镜头，画面中严禁切出人物头部或面部；旁白（VO）、对白或配乐均以画外立体声轨同步流淌。 【本镜配乐（OST）与侧链锁】：乐章I · 序破 — RADWIMPS《夢灯籠 (Dream Lantern)》（143 BPM · E大调 · 电吉他前奏与00:50全频鼓点爆发）；【本镜15秒满格完整声效与台词/独白声轨（Audio Cue）】：【0.0–10.0s (Shot_007)】【BG
+
+--- 位置 411498 前后关键行 ---
+  15.0s（第360帧）尾帧槽：Manus15s_005_LastFrame_360.png (EXPORT_MANUS15S_005_FRAME_360)
+  同步声轨与口型卡点：【0.0–10.0s (Shot_007)】【BGM】《夢灯籠》高速电吉他与鼓点衔接转场。 ＋ 【10.0–15.0s (Shot_008前半)】【SFX】足球抽射破风声 + 少年们远处的呼喊声；【VO·女主雨绪偏】「高一から高二にかけての放課後、私のピンク色のカメラには、いつも同じ背番号が写っていた。」（从高一到高二的无数个放学后，我的粉色相机里总是拍下同一个号码。）
+  【Manus AI视频生成指令（单次镜头15.0秒满格模式 · 七维铁律死锁V19电影级全帧版） | Manus15s_005 [涵盖 Shot_007 (0–10s) + Shot_008 (10–15s)] (01:00–01:15 · 15.0s/360帧 @24.000fps · 第01441–01800帧) | Cut 01C (2/2) -> Cut 02A (1/2) | 4K 新海诚×京阿尼电影集级画风】
+  · 【铁律3 · 本镜专属机位景别·服化道·解剖学左右手与防串服死锁】：【纯实景空镜死锁】本场为序幕跨时空双扇木窗实景空镜（图3.1），严禁出现任何人物面部、头部或身体轮廓；居中木窗框严格固定于 x=1920（50:50对称），左扇窗外锁定11月19日暮冬暴风雪与冰霜结晶，右扇窗外锁定4月1日春雨淅沥与滑落水珠。 ＋ 跨镜衔接：【男主单人球场锁（无分屏线）】4200K夕阳球场单人全幅画面（基于左半单屏子母带 05a_图3.2L 智能延展为 16:9，无分屏线、无女主出镜）：男主冬冰絮穿印有深蓝『0401』字样的蓝白
+  · 【铁律4 · 声画同步·配乐SFX·台词口型与声优基频死锁】：【无面部出镜·画外声轨死锁】本镜为纯环境光影/静物/手部或美食微距镜头，画面中严禁切出人物头部或面部；旁白（VO）、对白或配乐均以画外立体声轨同步流淌。 【本镜配乐（OST）与侧链锁】：乐章I · 序破 — RADWIMPS《夢灯籠 (Dream Lantern)》（143 BPM · E大调 · 电吉他前奏与00:50全频鼓点爆发）；【本镜15秒满格完整声效与台词/独白声轨（Audio Cue）】：【0.0–10.0s (Shot_007)】【BG
+  · 【铁律5 · Manus 15.0秒（360帧 @24.000fps）五子镜关键帧运镜与动态轨迹死锁】：【Sub-Cut α · 0.0–2.5秒（第001–060帧 · Keyframes F001→F030→F060 · 源自 Shot_007 起幅）】以 `Shot_006_LastFrame.png` 定锚起幅（35mm f/2.0 -> 85mm f/1.4 单人追焦，色温 5200K）：承接 `01c_图0.1_上幅16x9` 高空苍穹与双色彗星云海画面，摄影机在流光溢彩的云海上空做大摇臂舒展滑行（
+
+--- 位置 413151 前后关键行 ---
+  · 【铁律5 · Manus 15.0秒（360帧 @24.000fps）五子镜关键帧运镜与动态轨迹死锁】：【Sub-Cut α · 0.0–2.5秒（第001–060帧 · Keyframes F001→F030→F060 · 源自 Shot_007 起幅）】以 `Shot_006_LastFrame.png` 定锚起幅（35mm f/2.0 -> 85mm f/1.4 单人追焦，色温 5200K）：承接 `01c_图0.1_上幅16x9` 高空苍穹与双色彗星云海画面，摄影机在流光溢彩的云海上空做大摇臂舒展滑行（
+  · 【铁律6 · Manus 15秒满格云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)；【0.0s(第001帧)首帧/参考槽位】`Shot_006_LastFrame.png` (`USE_SHOT_006_FRAME_240`)；【15.0s(第360帧)尾帧槽位】`Manus15s_005_LastFrame_360.png` (`EXPORT_MANUS15S_005_FRAME_360`)；【辅助
+
+--- 位置 413435 前后关键行 ---
+  ub-Cut α · 0.0–2.5秒（第001–060帧 · Keyframes F001→F030→F060 · 源自 Shot_007 起幅）】以 `Shot_006_LastFrame.png` 定锚起幅（35mm f/2.0 -> 85mm f/1.4 单人追焦，色温 5200K）：承接 `01c_图0.1_上幅16x9` 高空苍穹与双色彗星云海画面，摄影机在流光溢彩的云海上空做大摇臂舒展滑行（Aerial Crane Glide）。【Sub-Cut β · 2.5–6.0秒（第061–144帧 · Ke
+  · 【铁律6 · Manus 15秒满格云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)；【0.0s(第001帧)首帧/参考槽位】`Shot_006_LastFrame.png` (`USE_SHOT_006_FRAME_240`)；【15.0s(第360帧)尾帧槽位】`Manus15s_005_LastFrame_360.png` (`EXPORT_MANUS15S_005_FRAME_360`)；【辅助
+  [Manus I2V Video Prompt (15.0s/360-Frame Full-Capacity Mode · V19 Feature-Film 7-Rule Ironclad Edition) | Manus15s_005 [Shot_007 (0–10s) + Shot_008 (10–15s)] (01:00–01:15 · 15.0s / 360 Frames @24.000fps · Frames 01441–01800) | Cut 01C (2/2) -> Cut 02A (1/2) | 
+
+--- 位置 414387 前后关键行 ---
+  · 【铁律6 · Manus 15秒满格云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s)；【0.0s(第001帧)首帧/参考槽位】`Shot_006_LastFrame.png` (`USE_SHOT_006_FRAME_240`)；【15.0s(第360帧)尾帧槽位】`Manus15s_005_LastFrame_360.png` (`EXPORT_MANUS15S_005_FRAME_360`)；【辅助
+  [Manus I2V Video Prompt (15.0s/360-Frame Full-Capacity Mode · V19 Feature-Film 7-Rule Ironclad Edition) | Manus15s_005 [Shot_007 (0–10s) + Shot_008 (10–15s)] (01:00–01:15 · 15.0s / 360 Frames @24.000fps · Frames 01441–01800) | Cut 01C (2/2) -> Cut 02A (1/2) | 
+
+--- 位置 416133 前后关键行 ---
+  [Rule 3 · Shot-Specific Framing, Wardrobe, Anatomical Hand Registry & Anti-Cross-Outfit Lock]: [Pure Environmental Lock] Opening cross-time double-pane wooden window environment (Fig 3.1) with ZERO human faces or bodies in frame; center wooden mullion locked a
+  [Rule 4 · Audio-Visual Sync, OST/SFX, Dialogue & Lip-Sync State Lock]: [No-Face Macro / Off-Screen Audio Lock] Pure environmental, still-life, or hand/culinary macro shot with ZERO character faces in frame; voiceover (VO), dialogue, or music plays strictly as 
+
+--- 位置 418788 前后关键行 ---
+   the camera glides gracefully across the glowing twilight cloud sea. [Sub-Cut β · 2.5-6.0s (Frames 061-144 · Keyframes F061->F102->F144 · Shot_007 Primary Action)]: The gold-foil title card dissolves amidst warm anamorphic lens flares as golden sunbeams pour d
+  [Rule 6 · Manus 15s Full-Capacity Cloud First/End Frame Slot & Weight Lock]: [Mode] 模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s); [0.0s (Frame 001) First-Frame / Ref Slot] 'Shot_006_LastFrame.png' (USE_SHOT_006_FRAME_240); [15.0s (Frame 360) End-Frame 
+  Manus15s_006 | 时间码 01:15–01:30 (15.0s) | 帧区间 01801–02160 | 涵盖 Shot_008 (15–2
+
+--- 位置 419138 前后关键行 ---
+   Keyframes F145->F192->F240 · Shot_007 Progression)]: At Frame 168 (7.0s), the camera executes a smooth whip-tilt down through a radiant 4200K sun flare, transitioning seamlessly into the sunset soccer pitch of Shot_008. [Sub-Cut δ · 10.0-13.0s (Frames 241-312
+  [Rule 6 · Manus 15s Full-Capacity Cloud First/End Frame Slot & Weight Lock]: [Mode] 模式B：末帧接力续生 (取 Shot_006 第240帧作首帧 / Manus Extend ≤15s); [0.0s (Frame 001) First-Frame / Ref Slot] 'Shot_006_LastFrame.png' (USE_SHOT_006_FRAME_240); [15.0s (Frame 360) End-Frame 
+  Manus15s_006 | 时间码 01:15–01:30 (15.0s) | 帧区间 01801–02160 | 涵盖 Shot_008 (15–20s) + Shot_009 (20–30s)
+  Manus 衔接模式：模式C：首尾帧双锁桥接 (First-to-Last Frame Bridge)
+  云端主母带：05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg (File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV)
+  0.0s 首帧 / 参考槽：Manus15s_005_LastFrame_360.png (FROM_MA
+
+--- 位置 420299 前后关键行 ---
+  ); [15.0s (Frame 360) End-Frame Slot] 'Manus15s_005_LastFrame_360.png' (EXPORT_MANUS15S_005_FRAME_360); [Auxiliary Face-Lock Slot (Weight=0.35 Facial Bone Structure ONLY, No Outfit Bleed)] 无（纯空镜/微距，无需额外人物锁脸图）.
+  Manus15s_006 | 时间码 01:15–01:30 (15.0s) | 帧区间 01801–02160 | 涵盖 Shot_008 (15–20s) + Shot_009 (20–30s)
+  Manus 衔接模式：模式C：首尾帧双锁桥接 (First-to-Last Frame Bridge)
+  云端主母带：05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg (File ID: 1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV)
+  0.0s 首帧 / 参考槽：Manus15s_005_LastFrame_360.png (FROM_MANUS15S_005_FRAME_360)
+  15.0s（第360帧）尾帧槽：05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg (1aMY0oq-9u9aPr06cJdLADMH4rE_ChNHV)
+  同步声轨与口型卡点：【0.0–5.0s (Shot_008后半)】【SFX】足球抽射破风声 + 少年们远处的呼喊声；【VO·女主雨绪偏】「高一から高二にかけての放課後、私のピンク色のカメラには、いつも同じ背番号が写っていた。」（从高一到高二的无数个放学后，我的粉色相机里总是拍下同一个号码。） ＋ 【5.0–15.0s (Shot_009)】【VO·女主雨绪偏】「夕焼けのグラウンドを駆ける『0401』――彼の名前さえ、まだ知らなかったのに。」（奔跑在夕阳球场上的“0401”——明明那时候，我连他的名字都还不知道。）
+  【Manus AI视频生成指令（单次镜头15.0秒满格模式 · 七维铁律死锁V19电影级全帧版） | Manus15s_006 [涵盖 Shot_008 (15–20s) + Shot_009 (20–30s)] (01:15–01:30 · 15.0s/360帧 @24.000fps · 第01801–02160帧) | Cut 02A (1/2) -> Cut 02A (2/2) | 4K 新海诚×京阿尼电影集级画风】
+
+--- 位置 422648 前后关键行 ---
+  练服，脚下带黑白足球敏捷突破，左耳外侧银色双环耳骨夹+小耳圈与细黑框眼镜清晰锁定；辅助槽 03a 仅以 Weight=0.35 锁五官骨相，严禁将浅灰开衫带入球场！ ＋ 跨镜衔接：【男主单人回眸锁（无分屏线）】4200K夕阳球场单人全幅画面（10.0s尾帧硬锁子母带 05a_图3.2L，无分屏线、无女主出镜）：男主冬冰絮穿『0401』蓝白足球服停球向左回眸，左耳外侧银色双环耳骨夹+小耳圈与细黑框眼镜在夕阳轮廓光下熠熠生辉；辅助槽 03a 仅以 Weight=0.35 锁五官骨相，严禁将浅灰开衫带入球场！ 【本镜（M
+  · 【铁律4 · 声画同步·配乐SFX·台词口型与声优基频死锁】：【画外音VO / 内心独白 / 纯配乐SFX·闭口微表情死锁】本镜声轨为画外音（VO）、内心独白或纯配乐/环境音效（SFX），画面中所有在场人物双唇必须保持自然轻抿或温柔浅笑闭合状态，严禁张嘴说话或嘴唇乱动对口型！通过眼神光流转、睫毛轻颤与呼吸起伏传递细腻情绪。 【本镜配乐（OST）与侧链锁】：乐章I · 序破 — RADWIMPS《夢灯籠 (Dream Lantern)》（143 BPM · E大调 · 弦乐疾驰段，人声对白触发 -4.5dB 侧链
+  · 【铁律5 · Manus 15.0秒（360帧 @24.000fps）五子镜关键帧运镜与动态轨迹死锁】：【Sub-Cut α · 0.0–2.5秒（第001–060帧 · Keyframes F001→F030→F060 · 承接 Shot_008 中段）】以 `Manus15s_005_LastFrame_360.png` 接力起幅（85mm f/1.4 单人追焦，色温 4200K）：穿印有『0401』号码蓝白拼色足球服的男主冬冰絮（YXP）脚下带球敏捷突破，草屑与夕阳金光飞溅。【Sub-Cut β · 2.
+  · 【铁律6 · Manus 15秒满格云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式C：首尾帧双锁桥接 (First-to-Last Frame Bridge)；【0.0s(第001帧)首帧/参考槽位】`Manus15s_005_LastFrame_360.png` (`FROM_MANUS15S_005_FRAME_360`)；【15.0s(第360帧)尾帧槽位】`05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg` (`1aMY0oq-9u9
+
+--- 位置 423553 前后关键行 ---
+  · 【铁律5 · Manus 15.0秒（360帧 @24.000fps）五子镜关键帧运镜与动态轨迹死锁】：【Sub-Cut α · 0.0–2.5秒（第001–060帧 · Keyframes F001→F030→F060 · 承接 Shot_008 中段）】以 `Manus15s_005_LastFrame_360.png` 接力起幅（85mm f/1.4 单人追焦，色温 4200K）：穿印有『0401』号码蓝白拼色足球服的男主冬冰絮（YXP）脚下带球敏捷突破，草屑与夕阳金光飞溅。【Sub-Cut β · 2.
+  · 【铁律6 · Manus 15秒满格云端首尾帧槽位与多图权重死锁】：【Manus衔接模式】模式C：首尾帧双锁桥接 (First-to-Last Frame Bridge)；【0.0s(第001帧)首帧/参考槽位】`Manus15s_005_LastFrame_360.png` (`FROM_MANUS15S_005_FRAME_360`)；【15.0s(第360帧)尾帧槽位】`05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg` (`1aMY0oq-9u9
+  [Manus I2V Video Prompt (15.0s/360-Frame Full-Capacity Mode · V19 Feature-Film 7-Rule Ironclad Edition) | Manus15s_006 [Shot_008 (15–20s) + Shot_009 (20–30s)] (01:15–01:30 · 15.0s /
+
+--- 位置 428013 前后关键行 ---
+  f-screen voiceover (VO), inner monologue, or pure BGM/SFX — all characters in frame MUST keep their lips naturally closed or in a gentle closed-lip smile (strictly NO open-mouth speaking or random lip movement), conveying emotion through eye catchlights, eyela
+  [Rule 5 · Manus 15.0s (360-Frame @24.000fps) 5-Sub-Cut Keyframe Cinematography & Motion Progression]: [Sub-Cut α · 0.0-2.5s (Frames 001-060 · Keyframes F001->F030->F060 · Shot_008 Mid-Relay)]: Relaying from 'Manus15s_005_LastFrame_360.png' under 85mm f/1.4 单人追
+
+--- 位置 429666 前后关键行 ---
+  .0-8.5s (Frames 121-204 · Keyframes F121->F162->F204 · Relay into Shot_009 Opening & Primary Action)]: Seamlessly advancing at Frame 121 into Shot_009 (85mm f/1.4 单人追焦, 4200K): Anchored 100% to Frame 240 of the previous shot (Shot_008_LastFrame.png) under 85mm
+  [Rule 6 · Manus 15s Full-Capacity Cloud First/End Frame Slot & Weight Lock]: [Mode] 模式C：首尾帧双锁桥接 (First-to-Last Frame Bridge); [0.0s (Frame 001) First-Frame / Ref Slot] 'Manus15s_005_LastFrame_360.png' (FROM_MANUS15S_005_FRAME_360); [15.0s (Frame 360) End-Frame
+
+========================================================================================
+D. 总控表 Shot_007 段
+========================================================================================
+
+--- 第 1 处，位置 1587 ---
+延展 10.0–15.0s（F241–F360）；关键帧锚点严格锁定 F001→F024→F048→F084→F120→F168→F204→F240（15s 满格轨追加 F300→F360）。全片合计 540 个核心叙事子镜，平均 3.33s / 80帧，与新海诚《你的名字。》ASL 3.2s 处于同一院线工业水准。
+【V19 黄金开篇破窗桥接】 Shot_006（00:50–01:00）执行 ★模式C 破窗跨空间桥接：0.0s 首帧锚定室内双扇木窗母带 04_图3.1，第 240 帧硬锁高空星河云海子母带 01c_图0.1_上幅16x9，实现 00:50 鼓点爆发破窗冲入双色彗星苍穹片名卡；Shot_007 从 01c 起幅并于 F168（7.0s）顺 4200K 阳光眩光俯冲摇降切入 Shot_008，与终幕 Shot_180 形成首尾视觉回环。
+【V19 空镜防污染与 120 镜满格同步】 纯空镜与手部微距镜头（Shot_002, 005, 020, 047, 050, 059, 110, 140, 152 等 27 镜）的 Sub-Cut ε 严禁出现人物与发丝，仅限光学景深呼吸与环境流体粒子（雪晶/雨滴/花瓣/蒸汽）缓流；120Shots（Manus15s_001–120）的 prompt_zh / prompt_en 已完整融合 15 秒全量双段台词音轨、360帧五子镜连续运镜与第 360 帧尾帧锁，可直接投喂 Manus 15 秒满格模式。
+【核心铁律 1–7 · 逐镜七维死锁执行标准（严禁敷衍或跳过任何一维）】
+
+光学与画幅死锁：严格执行每镜专属焦段光圈与色温；16个调用 1916×2160 单屏子母带的镜头必须向两侧自然延展为 3840×2160 (16:9) 全出血宽银幕，严禁左右黑边或人物拉伸；全片仅 7 个镜头（Shot_001–002, 005, 012, 018, 104, 108）为 50:50 双视窗/分屏，其余 173 镜严禁出现分屏黑线。
+角色骨相与视角死锁：女主雨绪偏（DBX，冷白皮 Lab L*≥88、星芒琥珀大眼、左眼外下方唯一小美人痣、无任何头饰的一刀切公主切及腰黑长直，仅 Scene 20–21 穿粉色洛丽塔裙时戴粉白蕾丝双蝴蝶结发带）；男主冬冰絮（YXP，同级冷白皮、深棕黑碎盖短发、细黑框眼镜、左右双耳对称银色双环耳骨夹+小耳圈）；纯背影镜头（Shot_080, 178, 179）严格锁定后脑发丝与外耳廓耳骨夹，严禁在后脑勺渲染正脸眼睛或五官。
+逐镜专属服化道与解剖学左右手死锁：全片 180 镜与 120 镜每镜均配备唯一专属【铁律3】，严格区分角色解剖学左手/右手与画面左右侧，男主黑夹克内搭统一锁定为纯白无字棉质T恤，彻底杜绝跨场串服或第三只手。
+配乐 SFX、台词口型与声优基频死锁：每镜【铁律4】完整内嵌对应乐章曲目（对白触发 -4.5dB 侧链避让）、完整日语台词/VO 原文、中文译文及声优基频（男主 130Hz / 女主 245Hz，「暮冬」读作 ぼとう Botō）；现场开口台词仅说话者在 2.0s
+
+--- 第 2 处，位置 6493 ---
+01 Cut 01B (3/3)
+50mm Macro f/1.4 (6500K/4800K)
+模式C：首尾帧双锁桥接
+Shot_004_LastFrame.png
+04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg
+Shot_006
+00:50–01:00
+Manus15s_004
+Sc01 Cut 01C (1/2)
+35mm f/2.0 (5200K)
+模式C：首尾帧双锁桥接
+04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg
+01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg
+Shot_007
+01:00–01:10
+Manus15s_005
+Sc01 Cut 01C (2/2)
+35mm f/2.0 (5200K)
+模式A：4K原画子母带首帧直出
+01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg
+Shot_007_EndHold_Frame240.png
+Shot_008
+01:10–01:20
+Manus15s_005 + Manus15s_006
+Sc02 Cut 02A (1/2)
+85mm f/1.4 单人追焦 (4200K)
+模式C-前导：场景/角色参考起幅
+NONE_SCENE_REF_LEAD_IN (0.0s首帧槽留空，挂载 05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg 至场景参考槽 Weight=0.65)
+Shot_008_LastFrame.png
+Shot_009
+01:20–01:30
+Manus15s_006
+Sc02 Cut 02A (2/2)
+85mm f/1.4 单人追焦 (4200K)
+模式C：首尾帧双锁桥接
+Shot_008_LastFrame.png
+05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg
+Shot_010
+01:30–01:40
+Manus15s_007
+Sc02 Cut 02B (1/3)
+50mm f/1.2 单人中近景 (4200K)
+模式A：单屏/16:9子母带首帧直出
+05b_图3.2R_Scene02_右半幅_铁丝网外粉色相机女主单人构图_1916x2160_4K.jpg
+Shot_010_LastFrame.png
+Shot_011
+01:40–01:50
+Manus15s_007 + Manus15s_008
+Sc02 Cut 02B (2/3)
+50mm f/1.2 单人特写 (4200K)
+模式B：末帧接力续生
+Shot_010_LastFrame.png
+Shot_011_EndHold_Frame240.png
+Shot_012
+01:50–02:00
+Manus15s_008
+Sc02 Cut 02B (3/3)
+50mm f/1.2 移焦 (4200K)
+模式A：4K原画母带首帧直出
+05_图3.
+
+--- 第 3 处，位置 6628 ---
+00:50–01:00
+Manus15s_004
+Sc01 Cut 01C (1/2)
+35mm f/2.0 (5200K)
+模式C：首尾帧双锁桥接
+04_图3.1_Scene01_暮冬之雪与春雨之窗_3840x2160_4K.jpg
+01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg
+Shot_007
+01:00–01:10
+Manus15s_005
+Sc01 Cut 01C (2/2)
+35mm f/2.0 (5200K)
+模式A：4K原画子母带首帧直出
+01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg
+Shot_007_EndHold_Frame240.png
+Shot_008
+01:10–01:20
+Manus15s_005 + Manus15s_006
+Sc02 Cut 02A (1/2)
+85mm f/1.4 单人追焦 (4200K)
+模式C-前导：场景/角色参考起幅
+NONE_SCENE_REF_LEAD_IN (0.0s首帧槽留空，挂载 05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg 至场景参考槽 Weight=0.65)
+Shot_008_LastFrame.png
+Shot_009
+01:20–01:30
+Manus15s_006
+Sc02 Cut 02A (2/2)
+85mm f/1.4 单人追焦 (4200K)
+模式C：首尾帧双锁桥接
+Shot_008_LastFrame.png
+05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg
+Shot_010
+01:30–01:40
+Manus15s_007
+Sc02 Cut 02B (1/3)
+50mm f/1.2 单人中近景 (4200K)
+模式A：单屏/16:9子母带首帧直出
+05b_图3.2R_Scene02_右半幅_铁丝网外粉色相机女主单人构图_1916x2160_4K.jpg
+Shot_010_LastFrame.png
+Shot_011
+01:40–01:50
+Manus15s_007 + Manus15s_008
+Sc02 Cut 02B (2/3)
+50mm f/1.2 单人特写 (4200K)
+模式B：末帧接力续生
+Shot_010_LastFrame.png
+Shot_011_EndHold_Frame240.png
+Shot_012
+01:50–02:00
+Manus15s_008
+Sc02 Cut 02B (3/3)
+50mm f/1.2 移焦 (4200K)
+模式A：4K原画母带首帧直出
+05_图3.2_Scene02_高一高二夕阳球场0401与粉色相机_3840x2160_4K.jpg
+Shot_012_EndHold_Frame240.png
+Shot_013
+02:00–02:10
+Manus15s_009
+Sc02 Cut 02C (1/2)
+135mm f
+
+--- 第 4 处，位置 36242 ---
+–10s) + Shot_005 (10–15s)
+第一幕：起（序破） Sc01
+Shot_003_LastFrame.png
+Manus15s_003_LastFrame_360.png
+Manus15s_004
+00:45–01:00
+01081–01440
+Shot_005 (15–20s) + Shot_006 (20–30s)
+第一幕：起（序破） Sc01
+Manus15s_003_LastFrame_360.png
+01c_图0.1_上幅16x9_星河苍穹与双色彗星终幕空镜_3840x2160_4K.jpg
+Manus15s_005
+01:00–01:15
+01441–01800
+Shot_007 (0–10s) + Shot_008 (10–15s)
+第一幕：起（序破） Sc01
+Shot_006_LastFrame.png
+Manus15s_005_LastFrame_360.png
+Manus15s_006
+01:15–01:30
+01801–02160
+Shot_008 (15–20s) + Shot_009 (20–30s)
+第一幕：起（序破） Sc02
+Manus15s_005_LastFrame_360.png
+05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg
+Manus15s_007
+01:30–01:45
+02161–02520
+Shot_010 (0–10s) + Shot_011 (10–15s)
+第一幕：起（序破） Sc02
+05b_图3.2R_Scene02_右半幅_铁丝网外粉色相机女主单人构图_1916x2160_4K.jpg
+Manus15s_007_LastFrame_360.png
+Manus15s_008
+01:45–02:00
+02521–02880
+Shot_011 (15–20s) + Shot_012 (20–30s)
+第一幕：起（序破） Sc02
+Manus15s_007_LastFrame_360.png
+Shot_012_EndHold_Frame240.png
+Manus15s_009
+02:00–02:15
+02881–03240
+Shot_013 (0–10s) + Shot_014 (10–15s)
+第一幕：起（序破） Sc02
+05a_图3.2L_Scene02_左半幅_夕阳球场0401男主单人构图_1916x2160_4K.jpg
+Manus15s_009_LastFrame_360.png
+Manus15s_010
+02:15–02:30
+03241–03600
+Shot_014 (15–20s) + Shot_015 (20–30s)
+第一幕：起（序破） Sc03
+Manus15s_009_LastFrame_360.png
+Shot_015_LastFrame.png
+Manus15s_011
+02:30–02:45
+03601–03960
+Shot_016 (0–10s) + Shot_017 (10–15s)
+第一
